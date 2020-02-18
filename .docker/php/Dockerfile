@@ -1,6 +1,6 @@
 FROM php:7.2.3-fpm
 
-LABEL author="Taha ZGUED" 
+LABEL author="Manoj Kumar Lavu" 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends vim curl debconf subversion git apt-transport-https apt-utils \
     build-essential locales acl mailutils wget zip unzip \
